@@ -7,7 +7,7 @@ Pensé pour les rendez-vous commerciaux et les réunions d'équipe : vous restez
 >
 > ![Interface du copilote — données de démo fictives](assets/interface-demo.png)
 
-[![CI](https://github.com/OWNER/meeting-copilot/actions/workflows/ci.yml/badge.svg)](../../actions/workflows/ci.yml)
+[![CI](https://github.com/tahabermaki/meeting-copilot/actions/workflows/ci.yml/badge.svg)](../../actions/workflows/ci.yml)
 · Python 3.11 · Windows · Claude (Anthropic) · Deepgram · PyQt6 · licence MIT
 
 ---
@@ -95,7 +95,7 @@ Les chiffres ci-dessous viennent des outils du dépôt, pas d'une estimation à 
 Prérequis : Windows 10 ou 11, Python 3.11 ou plus récent, une clé [Anthropic](https://console.anthropic.com) et une clé [Deepgram](https://console.deepgram.com).
 
 ```bat
-git clone https://github.com/OWNER/meeting-copilot.git
+git clone https://github.com/tahabermaki/meeting-copilot.git
 cd meeting-copilot
 scripts\install.bat        :: installe les dépendances et crée .env
 notepad .env               :: colle tes deux clés
