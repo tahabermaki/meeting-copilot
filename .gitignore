@@ -1,0 +1,37 @@
+# --- Secrets : ne jamais publier ---
+.env
+.env.*
+!.env.example
+
+# --- Données personnelles / de réunion : ne jamais publier ---
+# Ta configuration réelle et tes documents restent locaux.
+/config.toml
+/contexte-reunion.txt
+/docs/
+/transcripts/
+/reports/
+*.log
+
+# Formats bureautiques : seuls les documents de démo en Markdown sont versionnés.
+*.docx
+*.doc
+*.pdf
+*.xlsx
+*.pptx
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# --- Éditeurs / OS ---
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

@@ -1,0 +1,9 @@
+# Dépendances d'exécution (Windows)
+anthropic>=0.40
+websockets>=14
+python-dotenv>=1.0
+numpy>=1.26
+PyAudioWPatch>=0.2.12 ; sys_platform == "win32"
+PyQt6>=6.6
+python-docx>=1.1
+pypdf>=4.0

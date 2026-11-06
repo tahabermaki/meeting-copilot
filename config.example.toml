@@ -1,0 +1,45 @@
+# Configuration du copilote. Copie ce fichier en config.toml pour le modifier
+# (config.toml n'est pas versionné). Sans config.toml, ces valeurs par défaut s'appliquent.
+
+[paths]
+docs_dir = "demo/docs"                         # documents de préparation (.md, .txt, .docx, .pdf)
+context_file = "demo/contexte-reunion.example.txt"  # qui tu es, la réunion, le ton
+# Dossier des journaux et rapports. Vide = %LOCALAPPDATA%\meeting-copilot (Windows)
+data_dir = ""
+
+[llm]
+model = "claude-haiku-5-5"   # rapide et peu cher ; "claude-sonnet-5-5" = réponses plus riches, plus lent et plus cher
+max_tokens = 600
+context_turns = 8            # phrases précédentes envoyées en détection automatique
+help_context_turns = 15      # phrases envoyées pour l'aide manuelle (F9) et les questions tapées
+
+[retrieval]
+# Sous ce budget, tous les documents sont envoyés (et mis en cache) ;
+# au-dessus, seuls les passages les plus pertinents (BM25) sont envoyés.
+full_context_max_chars = 60000
+top_k = 6
+
+[transcription]
+model = "nova-3"
+language = "fr"
+endpointing_ms = 350         # silence qui marque la fin d'une phrase
+listen_mic = true            # ton micro sert de contexte (ne déclenche pas de réponse)
+
+[detection]
+min_words = 2                # phrases plus courtes ignorées (sauf mots composés : « présentez-vous »)
+
+[ui]
+width = 560
+height = 520
+font_size = 15
+auto_grow = true             # la fenêtre s'agrandit pour montrer toute la réponse
+hotkey_vk = 0x78             # F9 (0x77 = F8, 0x79 = F10)
+
+# Tarifs en USD, pour le calcul du coût par réunion. Vérifie-les sur les pages
+# de prix officielles : ils changent.
+[pricing]
+llm_input_per_mtok = 0.10
+llm_output_per_mtok = 0.50
+llm_cache_write_per_mtok = 0.125
+llm_cache_read_per_mtok = 0.01
+stt_per_minute = 0.0077

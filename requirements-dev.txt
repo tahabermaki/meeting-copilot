@@ -1,0 +1,9 @@
+# Tests et qualité (multi-plateforme : la logique ne dépend ni de Windows ni de l'audio)
+anthropic>=0.40
+websockets>=14
+python-dotenv>=1.0
+numpy>=1.26
+python-docx>=1.1
+pytest>=8
+pytest-asyncio>=0.23
+ruff>=0.6

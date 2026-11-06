@@ -1,0 +1,28 @@
+CONTEXTE DE LA RÉUNION — EXEMPLE FICTIF
+(Toutes les entreprises, personnes et chiffres ci-dessous sont inventés pour la démo.)
+
+=== QUI JE SUIS ===
+Nom : Alex Martin
+Rôle : fondateur d'Atelier Lumen, petite agence d'automatisation par l'IA (6 personnes).
+Ce que je veux mettre en avant : on livre des automatisations qui passent en production
+en quelques semaines, avec un suivi de la qualité et des coûts.
+
+=== LA RÉUNION ===
+Type : rendez-vous commercial, premier échange (45 min, en visio).
+Interlocuteurs :
+- Claire Dubois, directrice des opérations chez Transports Valmont (transport routier,
+  350 salariés). Ce qui compte pour elle : réduire la saisie manuelle des bons de livraison.
+- Hugo Lefèvre, responsable informatique. Ce qui compte pour lui : sécurité, intégration
+  avec leur ERP, pas de dépendance à un seul fournisseur.
+Objectif : obtenir un atelier de cadrage payant de 2 jours.
+Sujets prévus : présentation, leurs irritants, notre démarche, budget et délais.
+
+=== MANIÈRE DE RÉPONDRE ===
+Ton : orienté bénéfices et vocabulaire métier avec Claire ; précis et rassurant sur la
+sécurité avec Hugo. Peu de jargon.
+Niveau de détail : conclusion d'abord, puis 2 ou 3 points, puis un exemple.
+
+=== POINTS SENSIBLES ===
+- Ne pas promettre de délai ferme avant l'atelier de cadrage.
+- Ne pas annoncer de prix ferme pour le projet complet : seulement le prix de l'atelier.
+- Ne pas citer de noms de clients (accords de confidentialité) : parler des secteurs.
